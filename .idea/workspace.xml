@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a725ed99-3118-41b3-a518-75ec020b4462" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/dragos.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stylelintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__tests__/components/core/listpage/ListPageContainer/ListPageContainer.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__tests__/components/core/shared/HeaderContainer.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__tests__/components/presentational/App.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__tests__/components/presentational/listpage/ListPage/ListPage.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__tests__/components/presentational/shared/PageNotFound.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/core/shared/HeaderContainer/IHeaderContainerProps.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/presentational/listpage/ListPage/ListPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/presentational/shared/PageNotFound/PageNotFound.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/presentational/shared/PageNotFound/PageNotFound.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/i18nConfig.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/i18n/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/mainRouter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/routePaths.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/presentational/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state relative-caret-position="307">
+              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -82,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
-              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -126,11 +101,11 @@
         <option value="$PROJECT_DIR$/src/components/presentational/listpage/ListPage/ListPage.tsx" />
         <option value="$PROJECT_DIR$/src/__tests__/components/presentational/listpage/ListPage/ListPage.test.tsx" />
         <option value="$PROJECT_DIR$/src/__tests__/components/core/listpage/ListPageContainer/ListPageContainer.test.tsx" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/presentational/shared/Header/Header.tsx" />
         <option value="$PROJECT_DIR$/src/serviceWorker.ts" />
         <option value="$PROJECT_DIR$/tslint.json" />
         <option value="$PROJECT_DIR$/src/index.tsx" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -242,12 +217,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553891183013</updated>
-      <workItem from="1553891184196" duration="7663000" />
+      <workItem from="1553891184196" duration="8298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7663000" />
+    <option name="totallyTimeSpent" value="8298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="25" width="1861" height="1055" extended-state="6" />
@@ -255,12 +230,12 @@
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972796" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.40388548" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.40388548" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -469,13 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/presentational/shared/Header/Header.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -506,10 +474,17 @@
     <entry file="file://$PROJECT_DIR$/src/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
         </state>
       </provider>
     </entry>
