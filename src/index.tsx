@@ -1,10 +1,24 @@
+import 'react-app-polyfill/ie9';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { IntlProvider } from 'react-intl';
 import * as serviceWorker from './serviceWorker';
+import { BrowserRouter } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import { DEFAULT_LANGUAGE } from './constants/i18nConfig';
+import en from './i18n/en.json';
+import App from './components/presentational/App';
+
+ReactDOM.render(
+  (
+    <IntlProvider locale={ DEFAULT_LANGUAGE } messages={ en }>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </IntlProvider>
+  ),
+  document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

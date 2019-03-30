@@ -1,0 +1,89 @@
+{
+  "plugins": [
+    "stylelint-order"
+  ],
+  "extends": ["stylelint-config-standard", "stylelint-config-recommended-scss"],
+  "defaultSeverity": "error",
+  "rules": {
+    "at-rule-blacklist": "media",
+    "at-rule-no-unknown": null,
+    "block-closing-brace-newline-after": "always",
+    "block-closing-brace-newline-before": "always",
+    "declaration-block-no-duplicate-properties": [
+      true,
+      {
+        "ignore": "consecutive-duplicates-with-different-values"
+      }
+    ],
+    "declaration-block-no-redundant-longhand-properties": true,
+    "declaration-empty-line-before": null,
+    "declaration-no-important": true,
+    "indentation": 2,
+    "no-descending-specificity": true,
+    "no-duplicate-selectors": true,
+    "no-empty-source": true,
+    "number-leading-zero": "never",
+    "order/order": [
+      "at-rules",
+      "dollar-variables",
+      "declarations",
+      "custom-properties",
+      {
+        "type": "at-rule",
+        "name": "include",
+        "parameter": "onEvent"
+      },
+      {
+        "type": "at-rule",
+        "name": "include",
+        "parameter": "desktopMedium"
+      },
+      {
+        "type": "at-rule",
+        "name": "include",
+        "parameter": "desktopSmall"
+      },
+      {
+        "type": "at-rule",
+        "name": "include",
+        "parameter": "tabletLandscape"
+      },
+      {
+        "type": "at-rule",
+        "name": "include",
+        "parameter": "tabletPortrait"
+      },
+      {
+        "type": "at-rule",
+        "name": "include",
+        "parameter": "mobileLarge"
+      },
+      {
+        "type": "at-rule",
+        "name": "include",
+        "parameter": "mobileSmall"
+      },
+      "rules"
+    ],
+    "property-blacklist": ["float"],
+    "property-no-unknown": [
+      true,
+      {
+        "ignoreProperties": "composes"
+      }
+    ],
+    "property-no-vendor-prefix": true,
+    "selector-list-comma-newline-after": "always",
+    "selector-max-class": 2,
+    "selector-max-id": 0,
+    "selector-max-type": 1,
+    "selector-max-combinators": 2,
+    "selector-max-compound-selectors": 2,
+    "selector-max-pseudo-class": 2,
+    "selector-no-qualifying-type": true,
+    "selector-pseudo-class-no-unknown": false,
+    "string-quotes": "single",
+    "unit-blacklist": "px"
+  },
+  "ignoreFiles": ["src/assets/styles/global/_normalize.scss", "src/assets/styles/mixins/_mediaQueries.scss"]
+}
