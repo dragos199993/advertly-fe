@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a725ed99-3118-41b3-a518-75ec020b4462" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/core/listpage/ListPageContainer/IListPageContainerProps.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/core/listpage/ListPageContainer/IListPageContainerProps.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/core/listpage/ListPageContainer/ListPageContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/core/listpage/ListPageContainer/ListPageContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/presentational/listpage/ListPage/ListPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/presentational/listpage/ListPage/ListPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/components/presentational/listpage/ListPage/ListPage.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/components/presentational/listpage/ListPage/ListPage.test.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,13 +54,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/presentational/listpage/ListPage/ListPage.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="160">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="e#0#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/__tests__/components/presentational/listpage/ListPage/ListPage.test.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,7 +147,6 @@
         <option value="$PROJECT_DIR$/src/components/presentational/App.tsx" />
         <option value="$PROJECT_DIR$/src/components/core/listpage/ListPage/ListPage.tsx" />
         <option value="$PROJECT_DIR$/src/router/mainRouter.tsx" />
-        <option value="$PROJECT_DIR$/src/__tests__/components/presentational/listpage/ListPage/ListPage.test.tsx" />
         <option value="$PROJECT_DIR$/src/__tests__/components/core/listpage/ListPageContainer/ListPageContainer.test.tsx" />
         <option value="$PROJECT_DIR$/src/components/presentational/shared/Header/Header.tsx" />
         <option value="$PROJECT_DIR$/src/serviceWorker.ts" />
@@ -161,6 +159,7 @@
         <option value="$PROJECT_DIR$/src/components/core/listpage/ListPageContainer/IListPageContainerProps.ts" />
         <option value="$PROJECT_DIR$/src/components/core/listpage/ListPageContainer/ListPageContainer.tsx" />
         <option value="$PROJECT_DIR$/src/components/presentational/listpage/ListPage/ListPage.tsx" />
+        <option value="$PROJECT_DIR$/src/__tests__/components/presentational/listpage/ListPage/ListPage.test.tsx" />
       </list>
     </option>
   </component>
@@ -187,6 +186,46 @@
               <item name="advertly-fe" type="b2602c69:ProjectViewProjectNode" />
               <item name="advertly-fe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="advertly-fe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="advertly-fe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="advertly-fe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="advertly-fe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="advertly-fe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="advertly-fe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="presentational" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="advertly-fe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="advertly-fe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="presentational" type="462c0819:PsiDirectoryNode" />
+              <item name="listpage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="advertly-fe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="advertly-fe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="presentational" type="462c0819:PsiDirectoryNode" />
+              <item name="listpage" type="462c0819:PsiDirectoryNode" />
+              <item name="ListPage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="advertly-fe" type="b2602c69:ProjectViewProjectNode" />
@@ -297,18 +336,18 @@
       <workItem from="1553976597566" duration="38000" />
       <workItem from="1553980281674" duration="16000" />
       <workItem from="1554015839275" duration="1095000" />
-      <workItem from="1554017191076" duration="462000" />
+      <workItem from="1554017191076" duration="792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14301000" />
+    <option name="totallyTimeSpent" value="14631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="25" width="1861" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972796" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -323,7 +362,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.23006135" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.23006135" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -467,16 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/__tests__/components/presentational/listpage/ListPage/ListPage.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="3" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/__tests__/components/core/listpage/ListPageContainer/ListPageContainer.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -581,10 +610,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/presentational/listpage/ListPage/ListPage.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__tests__/components/presentational/listpage/ListPage/ListPage.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

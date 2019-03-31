@@ -4,7 +4,7 @@ import { ListPage } from '../../../../../components/presentational/listpage/List
 
 describe('ListPage', () => {
   let wrapper: ShallowWrapper<{}>;
-  wrapper = shallow(<ListPage />);
+  wrapper = shallow(<ListPage posts={ [] } />);
   test('renders without crashing', () => {
     expect(wrapper).toMatchSnapshot();
   });
