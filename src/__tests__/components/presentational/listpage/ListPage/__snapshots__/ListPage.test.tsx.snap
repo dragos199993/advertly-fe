@@ -3,7 +3,9 @@
 exports[`ListPage renders without crashing 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ListPage />,
+  Symbol(enzyme.__unrendered__): <ListPage
+    posts={Array []}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -16,25 +18,27 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "function",
     "props": Object {
-      "children": "List page",
+      "children": Array [],
+      "tag": "div",
     },
     "ref": null,
-    "rendered": "List page",
-    "type": "div",
+    "rendered": Array [],
+    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "function",
       "props": Object {
-        "children": "List page",
+        "children": Array [],
+        "tag": "div",
       },
       "ref": null,
-      "rendered": "List page",
-      "type": "div",
+      "rendered": Array [],
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {
