@@ -1,14 +1,26 @@
-import React, { FunctionComponent, ReactElement, ReactNode } from 'react';
+import React, { FunctionComponent, ReactNode } from 'react';
 import ListPageContainer from '../../../core/listpage/ListPageContainer/ListPageContainer';
+import { IListPageContainerState } from '../../../core/listpage/ListPageContainer/IListPageContainerProps';
+import { Card, CardBody, CardTitle, CardText, Container } from 'reactstrap';
 
-export const ListPage: FunctionComponent = () => {
+export const ListPage: FunctionComponent<IListPageContainerState> = ({ posts }) => {
   return (
-    <div>List page</div>
+    <Container>
+      { posts.map((post) => (
+        <Card>
+          <CardBody>
+            <CardTitle><h4>{ post.title }</h4></CardTitle>
+            <CardText>{ post.body }</CardText>
+          </CardBody>
+        </Card>
+      ))
+      }
+    </Container>
   );
 };
 
 export const ListPageRender: ReactNode = (
   <ListPageContainer>
-    { () => <ListPage /> }
+    { (props) => <ListPage { ...props } /> }
   </ListPageContainer>
 );
