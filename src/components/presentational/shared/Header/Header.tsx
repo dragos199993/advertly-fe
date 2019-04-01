@@ -1,48 +1,69 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, ReactNode } from 'react';
 import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
-  NavItem,
-  NavLink,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem
+  DropdownItem, NavItem
 } from 'reactstrap';
 import { IHeaderProps } from '../../../core/shared/HeaderContainer/IHeaderContainerProps';
+import { Link, NavLink } from 'react-router-dom';
+import { LOGIN, REGISTER, USERS } from '../../../../router/routePaths';
 
-const Header: FunctionComponent<IHeaderProps> = ({ isNavbarOpen, toggleNavbarMenu }) => {
+
+const Header: FunctionComponent<IHeaderProps> = ({ isNavbarOpen, toggleNavbarMenu, user }) => {
+
+  let currentMenu: ReactNode = (
+    <>
+      <Link to={ LOGIN }>
+        <DropdownItem>
+          Log in
+        </DropdownItem>
+      </Link>
+      <Link to={ REGISTER }>
+        <DropdownItem>
+          Register
+        </DropdownItem>
+      </Link>
+    </>
+  );
+  if (user) {
+    currentMenu = (
+      <>
+        <Link to={ LOGIN }>
+          <DropdownItem>
+            Sign out
+          </DropdownItem>
+        </Link>
+      </>
+    );
+  }
+
   return (
     <div>
       <Navbar color="light" light={ true } expand="md">
-        <NavbarBrand href="/">nedsilon blog</NavbarBrand>
+        <Link className="navbar-brand" to="/">Advertly</Link>
         <NavbarToggler onClick={ toggleNavbarMenu } />
         <Collapse isOpen={ isNavbarOpen } navbar={ true }>
           <Nav className="ml-auto" navbar={ true }>
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+              <NavLink className="nav-link" to={ USERS }>Users</NavLink>
             </NavItem>
             <UncontrolledDropdown nav={ true } inNavbar={ true }>
               <DropdownToggle nav={ true } caret={ true }>
-                Options
+                { user && user.username || 'Guest' }
               </DropdownToggle>
               <DropdownMenu right={ true }>
-                <DropdownItem>
-                  Option 1
-                </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                </DropdownItem>
+                <Link to="/settings">
+                  <DropdownItem>
+                    Settings
+                  </DropdownItem>
+                </Link>
                 <DropdownItem divider={ true } />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
+                { currentMenu }
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>

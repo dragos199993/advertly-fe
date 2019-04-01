@@ -1,5 +1,5 @@
 {
-  "name": "nedsilon-blog-fe",
+  "name": "advertly-fe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +8,7 @@
     "@types/react": "16.8.10",
     "@types/react-dom": "16.8.3",
     "@types/react-intl": "^2.3.17",
+    "@types/react-redux": "^7.0.6",
     "@types/react-router-dom": "^4.3.1",
     "@types/reactstrap": "^7.1.3",
     "axios": "^0.18.0",
@@ -21,6 +22,8 @@
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
     "reactstrap": "^7.1.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
     "typescript": "3.4.1"
   },
   "scripts": {
@@ -60,7 +63,6 @@
       "!src/reducers/index.ts",
       "!src/index.tsx",
       "!src/store.ts",
-      "!src/sdk-config.*",
       "!src/utils/fontAwesome.ts",
       "!src/i18n/*.json",
       "!src/router/mainRouter.tsx",

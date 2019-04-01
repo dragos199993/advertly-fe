@@ -1,15 +1,14 @@
-import React, { Component, ReactNode } from 'react';
+import { Component, ReactNode } from 'react';
 import { IListPageContainerProps, IListPageContainerState } from './IListPageContainerProps';
-import axios from 'axios';
+import { axiosweb, POSTS } from '../../../../config/axiosConfig';
 
 class ListPageContainer extends Component<IListPageContainerProps, IListPageContainerState> {
-
   state: IListPageContainerState = {
     posts: []
   };
 
   componentDidMount(): void {
-    axios.get('https://webfain.com/api/posts').then((res) => {
+    axiosweb.get(POSTS).then((res) => {
       this.setState({ posts: res.data });
     });
   }

@@ -4,6 +4,9 @@ import ReactDOM from 'react-dom';
 import { IntlProvider } from 'react-intl';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import store from './store';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { DEFAULT_LANGUAGE } from './constants/i18nConfig';
@@ -12,11 +15,13 @@ import App from './components/presentational/App';
 
 ReactDOM.render(
   (
-    <IntlProvider locale={ DEFAULT_LANGUAGE } messages={ en }>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </IntlProvider>
+    <Provider store={ store }>
+      <IntlProvider locale={ DEFAULT_LANGUAGE } messages={ en }>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </IntlProvider>
+    </Provider>
   ),
   document.getElementById('root'));
 

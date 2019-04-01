@@ -1,9 +1,5 @@
 import { ReactElement } from 'react';
-
-export interface IPost {
-  title: string;
-  body: string;
-}
+import { IPost } from '../../../../interfaces/IDefault';
 
 export interface IListPageContainerState {
   posts: IPost[];

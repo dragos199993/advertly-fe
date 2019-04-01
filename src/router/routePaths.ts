@@ -1,9 +1,7 @@
 export const ROOT: string = '/';
 export const ALL_ROUTES: string = '*';
 export const PAGE_NOT_FOUND: string = '/not-found';
-
-export const routePaths: { [key: string]: string } = {
-  root: ROOT,
-  allRoutes: ALL_ROUTES,
-  pageNotFound: PAGE_NOT_FOUND
-};
+export const LOGIN: string = '/login';
+export const REGISTER: string = '/register';
+export const USERS: string = '/users';
+export const PROFILE: string = '/profile';

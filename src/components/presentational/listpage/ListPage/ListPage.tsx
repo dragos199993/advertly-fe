@@ -6,8 +6,8 @@ import { Card, CardBody, CardTitle, CardText, Container } from 'reactstrap';
 export const ListPage: FunctionComponent<IListPageContainerState> = ({ posts }) => {
   return (
     <Container>
-      { posts.map((post) => (
-        <Card>
+      { posts.map((post, index) => (
+        <Card key={ index }>
           <CardBody>
             <CardTitle><h4>{ post.title }</h4></CardTitle>
             <CardText>{ post.body }</CardText>
