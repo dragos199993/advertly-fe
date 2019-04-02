@@ -1,6 +1,6 @@
 import React, { ChangeEvent, Component, ReactNode } from 'react';
 import { ILoginContainerState, ILoginUser } from '../IAuth';
-import { axiosweb, JWT, LOGIN } from '../../../../config/axiosConfig';
+import { axiosweb, JWTSTORE, LOGIN, USERSTORE } from '../../../../config/axiosConfig';
 import { ROOT } from '../../../../router/routePaths';
 import { withRouter } from 'react-router';
 import { connect } from 'react-redux';
@@ -22,15 +22,11 @@ class LoginContainer extends Component<ILoginContainerProps, ILoginContainerStat
     const { email, password } = this.state;
 
     axiosweb.post(LOGIN, { email, password })
-      .then((response: any) => {
-        if (response.data.success) {
-          const loginStore = {
-            token: response.data.token,
-            user: response.data.user
-          };
-          changeAuthState(response.data.user);
-          localStorage.setItem(JWT, response.data.token);
-          localStorage.setItem('user', response.data.u);
+      .then(({ data: { user, token, success }}) => {
+        if (success) {
+          changeAuthState(user);
+          localStorage.setItem(JWTSTORE, token);
+          localStorage.setItem(USERSTORE, JSON.stringify(user));
           history.push(ROOT);
         }
       })

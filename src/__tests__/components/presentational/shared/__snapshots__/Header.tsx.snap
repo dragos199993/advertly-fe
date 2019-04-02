@@ -27,12 +27,12 @@ ShallowWrapper {
         light={true}
         tag="nav"
       >
-        <NavbarBrand
-          href="/"
-          tag="a"
+        <Link
+          className="navbar-brand"
+          to="/"
         >
-          nedsilon blog
-        </NavbarBrand>
+          Advertly
+        </Link>
         <NavbarToggler
           onClick={[Function]}
           tag="button"
@@ -66,20 +66,10 @@ ShallowWrapper {
               tag="li"
             >
               <NavLink
-                href="/components/"
-                tag="a"
+                className="nav-link"
+                to="/users"
               >
-                Components
-              </NavLink>
-            </NavItem>
-            <NavItem
-              tag="li"
-            >
-              <NavLink
-                href="https://github.com/reactstrap/reactstrap"
-                tag="a"
-              >
-                GitHub
+                Users
               </NavLink>
             </NavItem>
             <UncontrolledDropdown
@@ -92,36 +82,35 @@ ShallowWrapper {
                 color="secondary"
                 nav={true}
               >
-                Options
+                Guest
               </DropdownToggle>
               <DropdownMenu
                 flip={true}
                 right={true}
                 tag="div"
               >
-                <DropdownItem
-                  tag="button"
-                  toggle={true}
-                >
-                  Option 1
-                </DropdownItem>
-                <DropdownItem
-                  tag="button"
-                  toggle={true}
-                >
-                  Option 2
-                </DropdownItem>
-                <DropdownItem
-                  divider={true}
-                  tag="button"
-                  toggle={true}
-                />
-                <DropdownItem
-                  tag="button"
-                  toggle={true}
-                >
-                  Reset
-                </DropdownItem>
+                <React.Fragment>
+                  <Link
+                    to="/login"
+                  >
+                    <DropdownItem
+                      tag="button"
+                      toggle={true}
+                    >
+                      Log in
+                    </DropdownItem>
+                  </Link>
+                  <Link
+                    to="/register"
+                  >
+                    <DropdownItem
+                      tag="button"
+                      toggle={true}
+                    >
+                      Register
+                    </DropdownItem>
+                  </Link>
+                </React.Fragment>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
@@ -135,12 +124,12 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": Array [
-          <NavbarBrand
-            href="/"
-            tag="a"
+          <Link
+            className="navbar-brand"
+            to="/"
           >
-            nedsilon blog
-          </NavbarBrand>,
+            Advertly
+          </Link>,
           <NavbarToggler
             onClick={[Function]}
             tag="button"
@@ -174,20 +163,10 @@ ShallowWrapper {
                 tag="li"
               >
                 <NavLink
-                  href="/components/"
-                  tag="a"
+                  className="nav-link"
+                  to="/users"
                 >
-                  Components
-                </NavLink>
-              </NavItem>
-              <NavItem
-                tag="li"
-              >
-                <NavLink
-                  href="https://github.com/reactstrap/reactstrap"
-                  tag="a"
-                >
-                  GitHub
+                  Users
                 </NavLink>
               </NavItem>
               <UncontrolledDropdown
@@ -200,36 +179,35 @@ ShallowWrapper {
                   color="secondary"
                   nav={true}
                 >
-                  Options
+                  Guest
                 </DropdownToggle>
                 <DropdownMenu
                   flip={true}
                   right={true}
                   tag="div"
                 >
-                  <DropdownItem
-                    tag="button"
-                    toggle={true}
-                  >
-                    Option 1
-                  </DropdownItem>
-                  <DropdownItem
-                    tag="button"
-                    toggle={true}
-                  >
-                    Option 2
-                  </DropdownItem>
-                  <DropdownItem
-                    divider={true}
-                    tag="button"
-                    toggle={true}
-                  />
-                  <DropdownItem
-                    tag="button"
-                    toggle={true}
-                  >
-                    Reset
-                  </DropdownItem>
+                  <React.Fragment>
+                    <Link
+                      to="/login"
+                    >
+                      <DropdownItem
+                        tag="button"
+                        toggle={true}
+                      >
+                        Log in
+                      </DropdownItem>
+                    </Link>
+                    <Link
+                      to="/register"
+                    >
+                      <DropdownItem
+                        tag="button"
+                        toggle={true}
+                      >
+                        Register
+                      </DropdownItem>
+                    </Link>
+                  </React.Fragment>
                 </DropdownMenu>
               </UncontrolledDropdown>
             </Nav>
@@ -245,14 +223,14 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
-            "children": "nedsilon blog",
-            "href": "/",
-            "tag": "a",
+            "children": "Advertly",
+            "className": "navbar-brand",
+            "to": "/",
           },
           "ref": null,
-          "rendered": "nedsilon blog",
+          "rendered": "Advertly",
           "type": [Function],
         },
         Object {
@@ -284,20 +262,10 @@ ShallowWrapper {
                 tag="li"
               >
                 <NavLink
-                  href="/components/"
-                  tag="a"
+                  className="nav-link"
+                  to="/users"
                 >
-                  Components
-                </NavLink>
-              </NavItem>
-              <NavItem
-                tag="li"
-              >
-                <NavLink
-                  href="https://github.com/reactstrap/reactstrap"
-                  tag="a"
-                >
-                  GitHub
+                  Users
                 </NavLink>
               </NavItem>
               <UncontrolledDropdown
@@ -310,36 +278,35 @@ ShallowWrapper {
                   color="secondary"
                   nav={true}
                 >
-                  Options
+                  Guest
                 </DropdownToggle>
                 <DropdownMenu
                   flip={true}
                   right={true}
                   tag="div"
                 >
-                  <DropdownItem
-                    tag="button"
-                    toggle={true}
-                  >
-                    Option 1
-                  </DropdownItem>
-                  <DropdownItem
-                    tag="button"
-                    toggle={true}
-                  >
-                    Option 2
-                  </DropdownItem>
-                  <DropdownItem
-                    divider={true}
-                    tag="button"
-                    toggle={true}
-                  />
-                  <DropdownItem
-                    tag="button"
-                    toggle={true}
-                  >
-                    Reset
-                  </DropdownItem>
+                  <React.Fragment>
+                    <Link
+                      to="/login"
+                    >
+                      <DropdownItem
+                        tag="button"
+                        toggle={true}
+                      >
+                        Log in
+                      </DropdownItem>
+                    </Link>
+                    <Link
+                      to="/register"
+                    >
+                      <DropdownItem
+                        tag="button"
+                        toggle={true}
+                      >
+                        Register
+                      </DropdownItem>
+                    </Link>
+                  </React.Fragment>
                 </DropdownMenu>
               </UncontrolledDropdown>
             </Nav>,
@@ -370,20 +337,10 @@ ShallowWrapper {
                   tag="li"
                 >
                   <NavLink
-                    href="/components/"
-                    tag="a"
+                    className="nav-link"
+                    to="/users"
                   >
-                    Components
-                  </NavLink>
-                </NavItem>,
-                <NavItem
-                  tag="li"
-                >
-                  <NavLink
-                    href="https://github.com/reactstrap/reactstrap"
-                    tag="a"
-                  >
-                    GitHub
+                    Users
                   </NavLink>
                 </NavItem>,
                 <UncontrolledDropdown
@@ -396,36 +353,35 @@ ShallowWrapper {
                     color="secondary"
                     nav={true}
                   >
-                    Options
+                    Guest
                   </DropdownToggle>
                   <DropdownMenu
                     flip={true}
                     right={true}
                     tag="div"
                   >
-                    <DropdownItem
-                      tag="button"
-                      toggle={true}
-                    >
-                      Option 1
-                    </DropdownItem>
-                    <DropdownItem
-                      tag="button"
-                      toggle={true}
-                    >
-                      Option 2
-                    </DropdownItem>
-                    <DropdownItem
-                      divider={true}
-                      tag="button"
-                      toggle={true}
-                    />
-                    <DropdownItem
-                      tag="button"
-                      toggle={true}
-                    >
-                      Reset
-                    </DropdownItem>
+                    <React.Fragment>
+                      <Link
+                        to="/login"
+                      >
+                        <DropdownItem
+                          tag="button"
+                          toggle={true}
+                        >
+                          Log in
+                        </DropdownItem>
+                      </Link>
+                      <Link
+                        to="/register"
+                      >
+                        <DropdownItem
+                          tag="button"
+                          toggle={true}
+                        >
+                          Register
+                        </DropdownItem>
+                      </Link>
+                    </React.Fragment>
                   </DropdownMenu>
                 </UncontrolledDropdown>,
               ],
@@ -442,10 +398,10 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "children": <NavLink
-                    href="/components/"
-                    tag="a"
+                    className="nav-link"
+                    to="/users"
                   >
-                    Components
+                    Users
                   </NavLink>,
                   "tag": "li",
                 },
@@ -453,43 +409,14 @@ ShallowWrapper {
                 "rendered": Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
-                    "children": "Components",
-                    "href": "/components/",
-                    "tag": "a",
+                    "children": "Users",
+                    "className": "nav-link",
+                    "to": "/users",
                   },
                   "ref": null,
-                  "rendered": "Components",
-                  "type": [Function],
-                },
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "children": <NavLink
-                    href="https://github.com/reactstrap/reactstrap"
-                    tag="a"
-                  >
-                    GitHub
-                  </NavLink>,
-                  "tag": "li",
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "class",
-                  "props": Object {
-                    "children": "GitHub",
-                    "href": "https://github.com/reactstrap/reactstrap",
-                    "tag": "a",
-                  },
-                  "ref": null,
-                  "rendered": "GitHub",
+                  "rendered": "Users",
                   "type": [Function],
                 },
                 "type": [Function],
@@ -506,36 +433,35 @@ ShallowWrapper {
                       color="secondary"
                       nav={true}
                     >
-                      Options
+                      Guest
                     </DropdownToggle>,
                     <DropdownMenu
                       flip={true}
                       right={true}
                       tag="div"
                     >
-                      <DropdownItem
-                        tag="button"
-                        toggle={true}
-                      >
-                        Option 1
-                      </DropdownItem>
-                      <DropdownItem
-                        tag="button"
-                        toggle={true}
-                      >
-                        Option 2
-                      </DropdownItem>
-                      <DropdownItem
-                        divider={true}
-                        tag="button"
-                        toggle={true}
-                      />
-                      <DropdownItem
-                        tag="button"
-                        toggle={true}
-                      >
-                        Reset
-                      </DropdownItem>
+                      <React.Fragment>
+                        <Link
+                          to="/login"
+                        >
+                          <DropdownItem
+                            tag="button"
+                            toggle={true}
+                          >
+                            Log in
+                          </DropdownItem>
+                        </Link>
+                        <Link
+                          to="/register"
+                        >
+                          <DropdownItem
+                            tag="button"
+                            toggle={true}
+                          >
+                            Register
+                          </DropdownItem>
+                        </Link>
+                      </React.Fragment>
                     </DropdownMenu>,
                   ],
                   "inNavbar": true,
@@ -550,12 +476,12 @@ ShallowWrapper {
                     "props": Object {
                       "aria-haspopup": true,
                       "caret": true,
-                      "children": "Options",
+                      "children": "Guest",
                       "color": "secondary",
                       "nav": true,
                     },
                     "ref": null,
-                    "rendered": "Options",
+                    "rendered": "Guest",
                     "type": [Function],
                   },
                   Object {
@@ -563,90 +489,124 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "function",
                     "props": Object {
-                      "children": Array [
-                        <DropdownItem
-                          tag="button"
-                          toggle={true}
+                      "children": <React.Fragment>
+                        <Link
+                          to="/login"
                         >
-                          Option 1
-                        </DropdownItem>,
-                        <DropdownItem
-                          tag="button"
-                          toggle={true}
+                          <DropdownItem
+                            tag="button"
+                            toggle={true}
+                          >
+                            Log in
+                          </DropdownItem>
+                        </Link>
+                        <Link
+                          to="/register"
                         >
-                          Option 2
-                        </DropdownItem>,
-                        <DropdownItem
-                          divider={true}
-                          tag="button"
-                          toggle={true}
-                        />,
-                        <DropdownItem
-                          tag="button"
-                          toggle={true}
-                        >
-                          Reset
-                        </DropdownItem>,
-                      ],
+                          <DropdownItem
+                            tag="button"
+                            toggle={true}
+                          >
+                            Register
+                          </DropdownItem>
+                        </Link>
+                      </React.Fragment>,
                       "flip": true,
                       "right": true,
                       "tag": "div",
                     },
                     "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "class",
-                        "props": Object {
-                          "children": "Option 1",
-                          "tag": "button",
-                          "toggle": true,
-                        },
-                        "ref": null,
-                        "rendered": "Option 1",
-                        "type": [Function],
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": Array [
+                          <Link
+                            to="/login"
+                          >
+                            <DropdownItem
+                              tag="button"
+                              toggle={true}
+                            >
+                              Log in
+                            </DropdownItem>
+                          </Link>,
+                          <Link
+                            to="/register"
+                          >
+                            <DropdownItem
+                              tag="button"
+                              toggle={true}
+                            >
+                              Register
+                            </DropdownItem>
+                          </Link>,
+                        ],
                       },
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "class",
-                        "props": Object {
-                          "children": "Option 2",
-                          "tag": "button",
-                          "toggle": true,
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": <DropdownItem
+                              tag="button"
+                              toggle={true}
+                            >
+                              Log in
+                            </DropdownItem>,
+                            "to": "/login",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "children": "Log in",
+                              "tag": "button",
+                              "toggle": true,
+                            },
+                            "ref": null,
+                            "rendered": "Log in",
+                            "type": [Function],
+                          },
+                          "type": [Function],
                         },
-                        "ref": null,
-                        "rendered": "Option 2",
-                        "type": [Function],
-                      },
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "class",
-                        "props": Object {
-                          "divider": true,
-                          "tag": "button",
-                          "toggle": true,
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": <DropdownItem
+                              tag="button"
+                              toggle={true}
+                            >
+                              Register
+                            </DropdownItem>,
+                            "to": "/register",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "children": "Register",
+                              "tag": "button",
+                              "toggle": true,
+                            },
+                            "ref": null,
+                            "rendered": "Register",
+                            "type": [Function],
+                          },
+                          "type": [Function],
                         },
-                        "ref": null,
-                        "rendered": null,
-                        "type": [Function],
-                      },
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "class",
-                        "props": Object {
-                          "children": "Reset",
-                          "tag": "button",
-                          "toggle": true,
-                        },
-                        "ref": null,
-                        "rendered": "Reset",
-                        "type": [Function],
-                      },
-                    ],
+                      ],
+                      "type": Symbol(react.fragment),
+                    },
                     "type": [Function],
                   },
                 ],
@@ -674,12 +634,12 @@ ShallowWrapper {
           light={true}
           tag="nav"
         >
-          <NavbarBrand
-            href="/"
-            tag="a"
+          <Link
+            className="navbar-brand"
+            to="/"
           >
-            nedsilon blog
-          </NavbarBrand>
+            Advertly
+          </Link>
           <NavbarToggler
             onClick={[Function]}
             tag="button"
@@ -713,20 +673,10 @@ ShallowWrapper {
                 tag="li"
               >
                 <NavLink
-                  href="/components/"
-                  tag="a"
+                  className="nav-link"
+                  to="/users"
                 >
-                  Components
-                </NavLink>
-              </NavItem>
-              <NavItem
-                tag="li"
-              >
-                <NavLink
-                  href="https://github.com/reactstrap/reactstrap"
-                  tag="a"
-                >
-                  GitHub
+                  Users
                 </NavLink>
               </NavItem>
               <UncontrolledDropdown
@@ -739,36 +689,35 @@ ShallowWrapper {
                   color="secondary"
                   nav={true}
                 >
-                  Options
+                  Guest
                 </DropdownToggle>
                 <DropdownMenu
                   flip={true}
                   right={true}
                   tag="div"
                 >
-                  <DropdownItem
-                    tag="button"
-                    toggle={true}
-                  >
-                    Option 1
-                  </DropdownItem>
-                  <DropdownItem
-                    tag="button"
-                    toggle={true}
-                  >
-                    Option 2
-                  </DropdownItem>
-                  <DropdownItem
-                    divider={true}
-                    tag="button"
-                    toggle={true}
-                  />
-                  <DropdownItem
-                    tag="button"
-                    toggle={true}
-                  >
-                    Reset
-                  </DropdownItem>
+                  <React.Fragment>
+                    <Link
+                      to="/login"
+                    >
+                      <DropdownItem
+                        tag="button"
+                        toggle={true}
+                      >
+                        Log in
+                      </DropdownItem>
+                    </Link>
+                    <Link
+                      to="/register"
+                    >
+                      <DropdownItem
+                        tag="button"
+                        toggle={true}
+                      >
+                        Register
+                      </DropdownItem>
+                    </Link>
+                  </React.Fragment>
                 </DropdownMenu>
               </UncontrolledDropdown>
             </Nav>
@@ -782,12 +731,12 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "children": Array [
-            <NavbarBrand
-              href="/"
-              tag="a"
+            <Link
+              className="navbar-brand"
+              to="/"
             >
-              nedsilon blog
-            </NavbarBrand>,
+              Advertly
+            </Link>,
             <NavbarToggler
               onClick={[Function]}
               tag="button"
@@ -821,20 +770,10 @@ ShallowWrapper {
                   tag="li"
                 >
                   <NavLink
-                    href="/components/"
-                    tag="a"
+                    className="nav-link"
+                    to="/users"
                   >
-                    Components
-                  </NavLink>
-                </NavItem>
-                <NavItem
-                  tag="li"
-                >
-                  <NavLink
-                    href="https://github.com/reactstrap/reactstrap"
-                    tag="a"
-                  >
-                    GitHub
+                    Users
                   </NavLink>
                 </NavItem>
                 <UncontrolledDropdown
@@ -847,36 +786,35 @@ ShallowWrapper {
                     color="secondary"
                     nav={true}
                   >
-                    Options
+                    Guest
                   </DropdownToggle>
                   <DropdownMenu
                     flip={true}
                     right={true}
                     tag="div"
                   >
-                    <DropdownItem
-                      tag="button"
-                      toggle={true}
-                    >
-                      Option 1
-                    </DropdownItem>
-                    <DropdownItem
-                      tag="button"
-                      toggle={true}
-                    >
-                      Option 2
-                    </DropdownItem>
-                    <DropdownItem
-                      divider={true}
-                      tag="button"
-                      toggle={true}
-                    />
-                    <DropdownItem
-                      tag="button"
-                      toggle={true}
-                    >
-                      Reset
-                    </DropdownItem>
+                    <React.Fragment>
+                      <Link
+                        to="/login"
+                      >
+                        <DropdownItem
+                          tag="button"
+                          toggle={true}
+                        >
+                          Log in
+                        </DropdownItem>
+                      </Link>
+                      <Link
+                        to="/register"
+                      >
+                        <DropdownItem
+                          tag="button"
+                          toggle={true}
+                        >
+                          Register
+                        </DropdownItem>
+                      </Link>
+                    </React.Fragment>
                   </DropdownMenu>
                 </UncontrolledDropdown>
               </Nav>
@@ -892,14 +830,14 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
-              "children": "nedsilon blog",
-              "href": "/",
-              "tag": "a",
+              "children": "Advertly",
+              "className": "navbar-brand",
+              "to": "/",
             },
             "ref": null,
-            "rendered": "nedsilon blog",
+            "rendered": "Advertly",
             "type": [Function],
           },
           Object {
@@ -931,20 +869,10 @@ ShallowWrapper {
                   tag="li"
                 >
                   <NavLink
-                    href="/components/"
-                    tag="a"
+                    className="nav-link"
+                    to="/users"
                   >
-                    Components
-                  </NavLink>
-                </NavItem>
-                <NavItem
-                  tag="li"
-                >
-                  <NavLink
-                    href="https://github.com/reactstrap/reactstrap"
-                    tag="a"
-                  >
-                    GitHub
+                    Users
                   </NavLink>
                 </NavItem>
                 <UncontrolledDropdown
@@ -957,36 +885,35 @@ ShallowWrapper {
                     color="secondary"
                     nav={true}
                   >
-                    Options
+                    Guest
                   </DropdownToggle>
                   <DropdownMenu
                     flip={true}
                     right={true}
                     tag="div"
                   >
-                    <DropdownItem
-                      tag="button"
-                      toggle={true}
-                    >
-                      Option 1
-                    </DropdownItem>
-                    <DropdownItem
-                      tag="button"
-                      toggle={true}
-                    >
-                      Option 2
-                    </DropdownItem>
-                    <DropdownItem
-                      divider={true}
-                      tag="button"
-                      toggle={true}
-                    />
-                    <DropdownItem
-                      tag="button"
-                      toggle={true}
-                    >
-                      Reset
-                    </DropdownItem>
+                    <React.Fragment>
+                      <Link
+                        to="/login"
+                      >
+                        <DropdownItem
+                          tag="button"
+                          toggle={true}
+                        >
+                          Log in
+                        </DropdownItem>
+                      </Link>
+                      <Link
+                        to="/register"
+                      >
+                        <DropdownItem
+                          tag="button"
+                          toggle={true}
+                        >
+                          Register
+                        </DropdownItem>
+                      </Link>
+                    </React.Fragment>
                   </DropdownMenu>
                 </UncontrolledDropdown>
               </Nav>,
@@ -1017,20 +944,10 @@ ShallowWrapper {
                     tag="li"
                   >
                     <NavLink
-                      href="/components/"
-                      tag="a"
+                      className="nav-link"
+                      to="/users"
                     >
-                      Components
-                    </NavLink>
-                  </NavItem>,
-                  <NavItem
-                    tag="li"
-                  >
-                    <NavLink
-                      href="https://github.com/reactstrap/reactstrap"
-                      tag="a"
-                    >
-                      GitHub
+                      Users
                     </NavLink>
                   </NavItem>,
                   <UncontrolledDropdown
@@ -1043,36 +960,35 @@ ShallowWrapper {
                       color="secondary"
                       nav={true}
                     >
-                      Options
+                      Guest
                     </DropdownToggle>
                     <DropdownMenu
                       flip={true}
                       right={true}
                       tag="div"
                     >
-                      <DropdownItem
-                        tag="button"
-                        toggle={true}
-                      >
-                        Option 1
-                      </DropdownItem>
-                      <DropdownItem
-                        tag="button"
-                        toggle={true}
-                      >
-                        Option 2
-                      </DropdownItem>
-                      <DropdownItem
-                        divider={true}
-                        tag="button"
-                        toggle={true}
-                      />
-                      <DropdownItem
-                        tag="button"
-                        toggle={true}
-                      >
-                        Reset
-                      </DropdownItem>
+                      <React.Fragment>
+                        <Link
+                          to="/login"
+                        >
+                          <DropdownItem
+                            tag="button"
+                            toggle={true}
+                          >
+                            Log in
+                          </DropdownItem>
+                        </Link>
+                        <Link
+                          to="/register"
+                        >
+                          <DropdownItem
+                            tag="button"
+                            toggle={true}
+                          >
+                            Register
+                          </DropdownItem>
+                        </Link>
+                      </React.Fragment>
                     </DropdownMenu>
                   </UncontrolledDropdown>,
                 ],
@@ -1089,10 +1005,10 @@ ShallowWrapper {
                   "nodeType": "function",
                   "props": Object {
                     "children": <NavLink
-                      href="/components/"
-                      tag="a"
+                      className="nav-link"
+                      to="/users"
                     >
-                      Components
+                      Users
                     </NavLink>,
                     "tag": "li",
                   },
@@ -1100,43 +1016,14 @@ ShallowWrapper {
                   "rendered": Object {
                     "instance": null,
                     "key": undefined,
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
-                      "children": "Components",
-                      "href": "/components/",
-                      "tag": "a",
+                      "children": "Users",
+                      "className": "nav-link",
+                      "to": "/users",
                     },
                     "ref": null,
-                    "rendered": "Components",
-                    "type": [Function],
-                  },
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "children": <NavLink
-                      href="https://github.com/reactstrap/reactstrap"
-                      tag="a"
-                    >
-                      GitHub
-                    </NavLink>,
-                    "tag": "li",
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "class",
-                    "props": Object {
-                      "children": "GitHub",
-                      "href": "https://github.com/reactstrap/reactstrap",
-                      "tag": "a",
-                    },
-                    "ref": null,
-                    "rendered": "GitHub",
+                    "rendered": "Users",
                     "type": [Function],
                   },
                   "type": [Function],
@@ -1153,36 +1040,35 @@ ShallowWrapper {
                         color="secondary"
                         nav={true}
                       >
-                        Options
+                        Guest
                       </DropdownToggle>,
                       <DropdownMenu
                         flip={true}
                         right={true}
                         tag="div"
                       >
-                        <DropdownItem
-                          tag="button"
-                          toggle={true}
-                        >
-                          Option 1
-                        </DropdownItem>
-                        <DropdownItem
-                          tag="button"
-                          toggle={true}
-                        >
-                          Option 2
-                        </DropdownItem>
-                        <DropdownItem
-                          divider={true}
-                          tag="button"
-                          toggle={true}
-                        />
-                        <DropdownItem
-                          tag="button"
-                          toggle={true}
-                        >
-                          Reset
-                        </DropdownItem>
+                        <React.Fragment>
+                          <Link
+                            to="/login"
+                          >
+                            <DropdownItem
+                              tag="button"
+                              toggle={true}
+                            >
+                              Log in
+                            </DropdownItem>
+                          </Link>
+                          <Link
+                            to="/register"
+                          >
+                            <DropdownItem
+                              tag="button"
+                              toggle={true}
+                            >
+                              Register
+                            </DropdownItem>
+                          </Link>
+                        </React.Fragment>
                       </DropdownMenu>,
                     ],
                     "inNavbar": true,
@@ -1197,12 +1083,12 @@ ShallowWrapper {
                       "props": Object {
                         "aria-haspopup": true,
                         "caret": true,
-                        "children": "Options",
+                        "children": "Guest",
                         "color": "secondary",
                         "nav": true,
                       },
                       "ref": null,
-                      "rendered": "Options",
+                      "rendered": "Guest",
                       "type": [Function],
                     },
                     Object {
@@ -1210,90 +1096,124 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "function",
                       "props": Object {
-                        "children": Array [
-                          <DropdownItem
-                            tag="button"
-                            toggle={true}
+                        "children": <React.Fragment>
+                          <Link
+                            to="/login"
                           >
-                            Option 1
-                          </DropdownItem>,
-                          <DropdownItem
-                            tag="button"
-                            toggle={true}
+                            <DropdownItem
+                              tag="button"
+                              toggle={true}
+                            >
+                              Log in
+                            </DropdownItem>
+                          </Link>
+                          <Link
+                            to="/register"
                           >
-                            Option 2
-                          </DropdownItem>,
-                          <DropdownItem
-                            divider={true}
-                            tag="button"
-                            toggle={true}
-                          />,
-                          <DropdownItem
-                            tag="button"
-                            toggle={true}
-                          >
-                            Reset
-                          </DropdownItem>,
-                        ],
+                            <DropdownItem
+                              tag="button"
+                              toggle={true}
+                            >
+                              Register
+                            </DropdownItem>
+                          </Link>
+                        </React.Fragment>,
                         "flip": true,
                         "right": true,
                         "tag": "div",
                       },
                       "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "class",
-                          "props": Object {
-                            "children": "Option 1",
-                            "tag": "button",
-                            "toggle": true,
-                          },
-                          "ref": null,
-                          "rendered": "Option 1",
-                          "type": [Function],
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "children": Array [
+                            <Link
+                              to="/login"
+                            >
+                              <DropdownItem
+                                tag="button"
+                                toggle={true}
+                              >
+                                Log in
+                              </DropdownItem>
+                            </Link>,
+                            <Link
+                              to="/register"
+                            >
+                              <DropdownItem
+                                tag="button"
+                                toggle={true}
+                              >
+                                Register
+                              </DropdownItem>
+                            </Link>,
+                          ],
                         },
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "class",
-                          "props": Object {
-                            "children": "Option 2",
-                            "tag": "button",
-                            "toggle": true,
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "children": <DropdownItem
+                                tag="button"
+                                toggle={true}
+                              >
+                                Log in
+                              </DropdownItem>,
+                              "to": "/login",
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "class",
+                              "props": Object {
+                                "children": "Log in",
+                                "tag": "button",
+                                "toggle": true,
+                              },
+                              "ref": null,
+                              "rendered": "Log in",
+                              "type": [Function],
+                            },
+                            "type": [Function],
                           },
-                          "ref": null,
-                          "rendered": "Option 2",
-                          "type": [Function],
-                        },
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "class",
-                          "props": Object {
-                            "divider": true,
-                            "tag": "button",
-                            "toggle": true,
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "children": <DropdownItem
+                                tag="button"
+                                toggle={true}
+                              >
+                                Register
+                              </DropdownItem>,
+                              "to": "/register",
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "class",
+                              "props": Object {
+                                "children": "Register",
+                                "tag": "button",
+                                "toggle": true,
+                              },
+                              "ref": null,
+                              "rendered": "Register",
+                              "type": [Function],
+                            },
+                            "type": [Function],
                           },
-                          "ref": null,
-                          "rendered": null,
-                          "type": [Function],
-                        },
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "class",
-                          "props": Object {
-                            "children": "Reset",
-                            "tag": "button",
-                            "toggle": true,
-                          },
-                          "ref": null,
-                          "rendered": "Reset",
-                          "type": [Function],
-                        },
-                      ],
+                        ],
+                        "type": Symbol(react.fragment),
+                      },
                       "type": [Function],
                     },
                   ],

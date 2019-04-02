@@ -2,33 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a725ed99-3118-41b3-a518-75ec020b4462" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/core/auth/login/ILoginContainer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/core/userspage/UserDetailContainer/IUserDetailContainer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/presentational/userspage/UserDetail/UserDetail.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/presentational/userspage/UsersPage/UsersPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/axiosConfig.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/IDefault.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/IStore.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/actionTypes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/auth/IAuthActions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/auth/authActions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/initialState/IDefaultState.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/initialState/authDefaultState.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/authReducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/dragos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/dragos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/core/userspage/ProfilePageContainer/IProfilePageContainer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/core/userspage/ProfilePageContainer/ProilePageContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/presentational/userspage/ProfilePage/ProfilePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/localStorageService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/initialState/initialStates.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/core/listpage/ListPageContainer/IListPageContainerProps.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/core/listpage/ListPageContainer/IListPageContainerProps.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/core/listpage/ListPageContainer/ListPageContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/core/listpage/ListPageContainer/ListPageContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/components/core/shared/__snapshots__/HeaderContainer.test.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/components/core/shared/__snapshots__/HeaderContainer.test.tsx.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/components/presentational/shared/__snapshots__/Header.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/components/presentational/shared/__snapshots__/Header.tsx.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/core/auth/login/ILoginContainer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/core/auth/login/ILoginContainer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/core/auth/login/LoginContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/core/auth/login/LoginContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/core/shared/HeaderContainer/HeaderContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/core/shared/HeaderContainer/HeaderContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/core/shared/HeaderContainer/IHeaderContainerProps.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/core/shared/HeaderContainer/IHeaderContainerProps.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/presentational/listpage/ListPage/ListPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/presentational/listpage/ListPage/ListPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/core/userspage/UserDetailContainer/IUserDetailContainer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/core/userspage/UserDetailContainer/IUserDetailContainer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/core/userspage/UserDetailContainer/UserDetailContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/core/userspage/UserDetailContainer/UserDetailContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/presentational/shared/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/presentational/shared/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/axiosConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/axiosConfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/IDefault.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/IDefault.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/mainRouter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/mainRouter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/routePaths.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/routePaths.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/initialState/authDefaultState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/initialState/authDefaultState.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,56 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/core/auth/login/LoginContainer.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-              <folding>
-                <element signature="e#0#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config/axiosConfig.ts">
+        <entry file="file://$PROJECT_DIR$/src/components/core/userspage/ProfilePageContainer/ProilePageContainer.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/presentational/shared/Header/Header.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="63" column="23" lean-forward="true" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/reducers/authReducer.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/core/shared/HeaderContainer/HeaderContainer.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="280">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -99,10 +47,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/core/shared/HeaderContainer/IHeaderContainerProps.ts">
+        <entry file="file://$PROJECT_DIR$/src/components/core/userspage/ProfilePageContainer/IProfilePageContainer.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+            <state relative-caret-position="160">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -111,28 +59,82 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/initialState/authDefaultState.ts">
+        <entry file="file://$PROJECT_DIR$/src/config/axiosConfig.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+            <state relative-caret-position="280">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/initialState/IDefaultState.ts">
+        <entry file="file://$PROJECT_DIR$/src/router/routePaths.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/presentational/userspage/ProfilePage/ProfilePage.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/core/shared/HeaderContainer/HeaderContainer.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="50" lean-forward="true" selection-start-column="50" selection-end-column="50" />
+              <caret column="44" selection-start-column="44" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/IStore.ts">
+        <entry file="file://$PROJECT_DIR$/.env.dist">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="27" />
+            <state relative-caret-position="20">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/core/shared/HeaderContainer/IHeaderContainerProps.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/core/userspage/UserDetailContainer/UserDetailContainer.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -143,11 +145,21 @@
     <findStrings>
       <find>youe</find>
       <find>UsersPage</find>
+      <find>user</find>
+      <find>IUserDetail</find>
+      <find>UserDetail</find>
+      <find>getItem</find>
     </findStrings>
     <replaceStrings>
       <replace>your</replace>
       <replace>UserDetail</replace>
+      <replace>IProfilePage</replace>
+      <replace>ProfilePage</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/services</dir>
+      <dir>$PROJECT_DIR$/src</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -155,11 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/__tests__/components/core/shared/HeaderContainer.test.tsx" />
-        <option value="$PROJECT_DIR$/src/__tests__/components/presentational/shared/Header.tsx" />
-        <option value="$PROJECT_DIR$/src/components/presentational/App.tsx" />
-        <option value="$PROJECT_DIR$/src/components/core/listpage/ListPage/ListPage.tsx" />
-        <option value="$PROJECT_DIR$/src/__tests__/components/core/listpage/ListPageContainer/ListPageContainer.test.tsx" />
         <option value="$PROJECT_DIR$/src/serviceWorker.ts" />
         <option value="$PROJECT_DIR$/tslint.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -176,36 +183,41 @@
         <option value="$PROJECT_DIR$/src/components/core/userspage/UsersPageContainer/ListPageContainer.tsx" />
         <option value="$PROJECT_DIR$/src/components/core/userspage/UsersPageContainer/IUsersPageContainer.ts" />
         <option value="$PROJECT_DIR$/src/components/core/listpage/ListPageContainer/IListPageContainerProps.ts" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/components/core/userspage/UsersPageContainer/UsersPageContainer.tsx" />
         <option value="$PROJECT_DIR$/src/router/routePaths.ts" />
-        <option value="$PROJECT_DIR$/src/interfaces/IDefault.ts" />
-        <option value="$PROJECT_DIR$/src/router/mainRouter.tsx" />
         <option value="$PROJECT_DIR$/src/components/presentational/userspage/UsersPage/UsersPage.tsx" />
-        <option value="$PROJECT_DIR$/src/components/core/userspage/UserDetailContainer/IUserDetailContainer.ts" />
-        <option value="$PROJECT_DIR$/src/components/core/userspage/UserDetailContainer/UserDetailContainer.tsx" />
         <option value="$PROJECT_DIR$/src/components/presentational/userspage/UserDetail/UserDetail.tsx" />
         <option value="$PROJECT_DIR$/src/store/actions/IAuthActions.ts" />
         <option value="$PROJECT_DIR$/src/store/actions/authActions.ts" />
         <option value="$PROJECT_DIR$/src/store/actions/actionTypes.ts" />
-        <option value="$PROJECT_DIR$/src/store/actions/auth/IAuthActions.ts" />
-        <option value="$PROJECT_DIR$/src/store/actions/auth/authActions.ts" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/index.tsx" />
         <option value="$PROJECT_DIR$/src/store/index.ts" />
         <option value="$PROJECT_DIR$/src/store/reducers/index.ts" />
         <option value="$PROJECT_DIR$/src/components/core/auth/IAuth.ts" />
-        <option value="$PROJECT_DIR$/src/interfaces/IActions.ts" />
         <option value="$PROJECT_DIR$/src/store/initialState/IDefaultState.ts" />
-        <option value="$PROJECT_DIR$/src/store/initialState/authDefaultState.ts" />
         <option value="$PROJECT_DIR$/src/interfaces/IStore.ts" />
         <option value="$PROJECT_DIR$/src/store/reducers/authReducer.ts" />
         <option value="$PROJECT_DIR$/src/components/core/auth/login/ILoginContainer.ts" />
-        <option value="$PROJECT_DIR$/src/config/axiosConfig.ts" />
-        <option value="$PROJECT_DIR$/src/components/core/shared/HeaderContainer/IHeaderContainerProps.ts" />
-        <option value="$PROJECT_DIR$/src/components/presentational/shared/Header/Header.tsx" />
-        <option value="$PROJECT_DIR$/src/components/core/shared/HeaderContainer/HeaderContainer.tsx" />
+        <option value="$PROJECT_DIR$/src/store/actions/auth/IAuthActions.ts" />
+        <option value="$PROJECT_DIR$/src/store/actions/auth/authActions.ts" />
+        <option value="$PROJECT_DIR$/src/interfaces/IActions.ts" />
         <option value="$PROJECT_DIR$/src/components/core/auth/login/LoginContainer.tsx" />
+        <option value="$PROJECT_DIR$/src/store/initialState/initialStates.ts" />
+        <option value="$PROJECT_DIR$/src/store/initialState/authDefaultState.ts" />
+        <option value="$PROJECT_DIR$/src/components/presentational/shared/Header/Header.tsx" />
+        <option value="$PROJECT_DIR$/src/components/core/userspage/UserDetailContainer/IUserDetailContainer.ts" />
+        <option value="$PROJECT_DIR$/src/interfaces/IDefault.ts" />
+        <option value="$PROJECT_DIR$/src/components/core/userspage/ProfilePageContainer/IProfilePageContainer.ts" />
+        <option value="$PROJECT_DIR$/src/router/mainRouter.tsx" />
+        <option value="$PROJECT_DIR$/src/components/core/userspage/UserDetailContainer/UserDetailContainer.tsx" />
+        <option value="$PROJECT_DIR$/src/services/localStorageService.ts" />
+        <option value="$PROJECT_DIR$/src/components/presentational/userspage/ProfilePage/ProfilePage.tsx" />
+        <option value="$PROJECT_DIR$/src/config/axiosConfig.ts" />
+        <option value="$PROJECT_DIR$/src/components/core/userspage/ProfilePageContainer/ProilePageContainer.tsx" />
+        <option value="$PROJECT_DIR$/src/components/core/shared/HeaderContainer/IHeaderContainerProps.ts" />
+        <option value="$PROJECT_DIR$/src/components/core/shared/HeaderContainer/HeaderContainer.tsx" />
+        <option value="$PROJECT_DIR$/.env" />
       </list>
     </option>
   </component>
@@ -252,7 +264,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="advertly-fe" type="b2602c69:ProjectViewProjectNode" />
@@ -260,8 +272,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-              <item name="HeaderContainer" type="462c0819:PsiDirectoryNode" />
+              <item name="userspage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="advertly-fe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="advertly-fe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="userspage" type="462c0819:PsiDirectoryNode" />
+              <item name="UserDetailContainer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="advertly-fe" type="b2602c69:ProjectViewProjectNode" />
@@ -276,7 +296,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="presentational" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="userspage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="advertly-fe" type="b2602c69:ProjectViewProjectNode" />
@@ -284,34 +304,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="presentational" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-              <item name="Header" type="462c0819:PsiDirectoryNode" />
+              <item name="userspage" type="462c0819:PsiDirectoryNode" />
+              <item name="ProfilePage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="advertly-fe" type="b2602c69:ProjectViewProjectNode" />
               <item name="advertly-fe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advertly-fe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advertly-fe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advertly-fe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advertly-fe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="initialState" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advertly-fe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advertly-fe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -322,7 +322,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../work/vcg-spc-fe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/presentational/userspage/ProfilePage" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -332,6 +332,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/presentational/userspage/ProfilePage" />
+      <recent name="$PROJECT_DIR$/src/components/core/userspage/ProfilePageContainer" />
       <recent name="$PROJECT_DIR$/src/components/core/userspage/UsersPageContainer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -373,18 +375,18 @@
       <workItem from="1554015839275" duration="1095000" />
       <workItem from="1554017191076" duration="1774000" />
       <workItem from="1554020324676" duration="3928000" />
-      <workItem from="1554026049816" duration="11898000" />
+      <workItem from="1554026049816" duration="17625000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31439000" />
+    <option name="totallyTimeSpent" value="37166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="25" width="1861" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972796" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -399,7 +401,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.23517382" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.23619632" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -409,50 +411,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/reactstrap/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="192" column="13" selection-start-line="192" selection-start-column="13" selection-end-line="192" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/__tests__/components/core/shared/HeaderContainer.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/constants/i18nConfig.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/__tests__/components/presentational/shared/PageNotFound.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/__tests__/components/presentational/shared/Header.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/__tests__/components/presentational/App.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -598,20 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="46" selection-start-column="46" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/routePaths.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/presentational/userspage/UsersPage/UsersPage.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -619,13 +563,6 @@
           <folding>
             <element signature="e#0#60#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/mainRouter.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -639,30 +576,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/core/userspage/UserDetailContainer/IUserDetailContainer.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/core/userspage/UsersPageContainer/UsersPageContainer.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/core/userspage/UserDetailContainer/UserDetailContainer.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
@@ -683,20 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="30" selection-start-column="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/actions/auth/IAuthActions.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -737,33 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/IActions.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/actions/auth/authActions.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/IDefault.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/reducers/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -781,10 +657,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/initialState/authDefaultState.ts">
+    <entry file="file://$PROJECT_DIR$/src/interfaces/IActions.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        <state>
+          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/core/auth/login/LoginContainer.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/auth/authActions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/auth/IAuthActions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/core/auth/login/ILoginContainer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="20" selection-start-line="5" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -795,27 +708,129 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/initialState/authDefaultState.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/initialState/initialStates.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/reducers/authReducer.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="100">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/axiosConfig.ts">
+    <entry file="file://$PROJECT_DIR$/src/interfaces/IDefault.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/core/userspage/UserDetailContainer/IUserDetailContainer.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="21" />
+          <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/mainRouter.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/presentational/shared/Header/Header.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/localStorageService.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/core/userspage/UserDetailContainer/UserDetailContainer.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/presentational/userspage/ProfilePage/ProfilePage.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/routePaths.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/axiosConfig.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/core/userspage/ProfilePageContainer/IProfilePageContainer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/core/userspage/ProfilePageContainer/ProilePageContainer.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/core/shared/HeaderContainer/IHeaderContainerProps.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        <state relative-caret-position="320">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
@@ -824,40 +839,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/core/shared/HeaderContainer/HeaderContainer.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="340">
+          <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/core/auth/login/ILoginContainer.ts">
+    <entry file="file://$PROJECT_DIR$/.env.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/presentational/shared/Header/Header.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="63" column="23" lean-forward="true" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/core/auth/login/LoginContainer.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#65#0" expanded="true" />
-          </folding>
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
         </state>
       </provider>
     </entry>

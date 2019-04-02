@@ -11,10 +11,10 @@ import {
 } from 'reactstrap';
 import { IHeaderProps } from '../../../core/shared/HeaderContainer/IHeaderContainerProps';
 import { Link, NavLink } from 'react-router-dom';
-import { LOGIN, REGISTER, USERS } from '../../../../router/routePaths';
+import { LOGIN, PROFILE, REGISTER, USERS } from '../../../../router/routePaths';
 
 
-const Header: FunctionComponent<IHeaderProps> = ({ isNavbarOpen, toggleNavbarMenu, user }) => {
+const Header: FunctionComponent<IHeaderProps> = ({ isNavbarOpen, toggleNavbarMenu, user, signOut }) => {
 
   let currentMenu: ReactNode = (
     <>
@@ -30,14 +30,18 @@ const Header: FunctionComponent<IHeaderProps> = ({ isNavbarOpen, toggleNavbarMen
       </Link>
     </>
   );
-  if (user) {
+  if (user && user.username) {
     currentMenu = (
       <>
-        <Link to={ LOGIN }>
+        <Link to={ PROFILE }>
           <DropdownItem>
-            Sign out
+            Profile
           </DropdownItem>
         </Link>
+        <DropdownItem divider={ true } />
+        <DropdownItem onClick={ signOut }>
+          Sign out
+        </DropdownItem>
       </>
     );
   }
@@ -57,12 +61,6 @@ const Header: FunctionComponent<IHeaderProps> = ({ isNavbarOpen, toggleNavbarMen
                 { user && user.username || 'Guest' }
               </DropdownToggle>
               <DropdownMenu right={ true }>
-                <Link to="/settings">
-                  <DropdownItem>
-                    Settings
-                  </DropdownItem>
-                </Link>
-                <DropdownItem divider={ true } />
                 { currentMenu }
               </DropdownMenu>
             </UncontrolledDropdown>

@@ -3,9 +3,9 @@
 exports[`HeaderContainer renders without crashing 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <HeaderContainer>
+  Symbol(enzyme.__unrendered__): <withRouter(Connect(HeaderContainer))>
     [Function]
-  </HeaderContainer>,
+  </withRouter(Connect(HeaderContainer))>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -18,26 +18,24 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "function",
+    "nodeType": "class",
     "props": Object {
-      "isNavbarOpen": false,
-      "toggleNavbarMenu": [Function],
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
+    "rendered": [Function],
     "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "function",
+      "nodeType": "class",
       "props": Object {
-        "isNavbarOpen": false,
-        "toggleNavbarMenu": [Function],
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
+      "rendered": [Function],
       "type": [Function],
     },
   ],
@@ -64,6 +62,5 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;

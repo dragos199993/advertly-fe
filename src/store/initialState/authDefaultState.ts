@@ -1,11 +1,6 @@
 import { IAuthState } from './IDefaultState';
+import { initialUser } from './initialStates';
 
 export const authDefaultState: IAuthState = {
-  user: {
-    _id: '',
-    username: '',
-    email: '',
-    role: '',
-    created: ''
-  }
+  user: initialUser
 };

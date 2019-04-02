@@ -1,6 +1,6 @@
 import { Component, ReactNode } from 'react';
 import { IUserDetailContainerProps, IUserDetailContainerState } from './IUserDetailContainer';
-import { axiosweb, USER, USERS } from '../../../../config/axiosConfig';
+import { axiosweb, USER } from '../../../../config/axiosConfig';
 import { withRouter } from 'react-router';
 
 class UserDetailContainer extends Component<IUserDetailContainerProps, IUserDetailContainerState> {

@@ -7,19 +7,21 @@ import { RegisterRender } from '../components/presentational/auth/Register';
 import { LoginRender } from '../components/presentational/auth/Login';
 import { UsersPageRender } from '../components/presentational/userspage/UsersPage/UsersPage';
 import { UserDetailRender } from '../components/presentational/userspage/UserDetail/UserDetail';
+import { ProfilePageRender } from '../components/presentational/userspage/ProfilePage/ProfilePage';
 
 const MainRoutes: FunctionComponent = () => {
   return (
     <Switch>
       <Route exact={ true } path={ ROOT } render={ () => ListPageRender } />
       <Route exact={ true } path={ USERS } render={ () => UsersPageRender } />
-      <Route exact={ true } path={ `${PROFILE}/:id` } render={ () => UserDetailRender } />
+      <Route exact={ true } path={ `${ PROFILE }/:id` } render={ () => UserDetailRender } />
+      <Route exact={ true } path={ `${ PROFILE }` } render={ () => ProfilePageRender } />
 
       <Route exact={ true } path={ LOGIN } component={ () => LoginRender } />
       <Route exact={ true } path={ REGISTER } component={ () => RegisterRender } />
 
-      <Route exact={ true } path={ PAGE_NOT_FOUND } component={ PageNotFound }/>
-      <Redirect from={ ALL_ROUTES } to={ PAGE_NOT_FOUND }/>
+      <Route exact={ true } path={ PAGE_NOT_FOUND } component={ PageNotFound } />
+      <Redirect from={ ALL_ROUTES } to={ PAGE_NOT_FOUND } />
     </Switch>
   );
 };
