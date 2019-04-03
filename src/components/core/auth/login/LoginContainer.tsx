@@ -20,13 +20,13 @@ class LoginContainer extends Component<ILoginContainerProps, ILoginContainerStat
     e.preventDefault();
     const { history, changeAuthState } = this.props;
     const { email, password } = this.state;
-
     axiosweb.post(LOGIN, { email, password })
       .then(({ data: { user, token, success }}) => {
         if (success) {
           changeAuthState(user);
           localStorage.setItem(JWTSTORE, token);
           localStorage.setItem(USERSTORE, JSON.stringify(user));
+          console.log(user);
           history.push(ROOT);
         }
       })

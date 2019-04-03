@@ -18,7 +18,6 @@ import { ROOT } from '../../../../router/routePaths';
 
 class HeaderContainer extends Component<IHeaderContainerProps, IHeaderContainerState> {
   state: IHeaderContainerState = {
-    isNavbarOpen: false,
     user: null
   };
 
@@ -38,10 +37,8 @@ class HeaderContainer extends Component<IHeaderContainerProps, IHeaderContainerS
     history.push(ROOT);
   };
 
-  toggleNavbarMenu = () => {
-    this.setState({
-      isNavbarOpen: !this.state.isNavbarOpen
-    });
+  changePage = (path: string) => {
+    this.props.history.push(path);
   };
 
   render(): ReactNode {
@@ -50,8 +47,7 @@ class HeaderContainer extends Component<IHeaderContainerProps, IHeaderContainerS
     return children({
       signOut: this.signOut,
       user,
-      toggleNavbarMenu: this.toggleNavbarMenu,
-      isNavbarOpen: this.state.isNavbarOpen
+      changePage: this.changePage
     });
   }
 }

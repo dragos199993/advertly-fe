@@ -1,48 +1,55 @@
 import React, { FunctionComponent, ReactElement } from 'react';
-import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
-import { Row, Col, Alert } from 'reactstrap';
 import { ILoginPresentational } from '../../core/auth/IAuth';
 import { Link } from 'react-router-dom';
 import LoginContainer from '../../core/auth/login/LoginContainer';
+import { Button, Callout, Classes, FormGroup, InputGroup } from '@blueprintjs/core';
+import { REGISTER } from '../../../router/routePaths';
 
 export const Login: FunctionComponent<ILoginPresentational> = (props: ILoginPresentational) => {
   const { submitForm, changeInput, state: { email, password, errors } } = props;
   return (
-    <Row>
-      <Col className="mt-5" md={ { size: 6, offset: 3 } }>
-        { errors && Object.values(errors).map((error, index) => (
-          <Alert color="danger" key={ index }>
-            <div>{ error }</div>
-          </Alert>
-        )) }
-        <Form onSubmit={ submitForm }>
-          <FormGroup>
-            <Label for="email">Email</Label>
-            <Input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Enter your email address"
+    <div className="container">
+      <div className="row">
+        <div className="mt-5 col-md-6 offset-md-3">
+          { errors && Object.values(errors).map((error, index) => (
+            <Callout className="mb-3" intent="danger" key={ index }>
+              { error }
+            </Callout>
+          )) }
+          <FormGroup
+            label="Email"
+            labelFor="email"
+            labelInfo="(required)"
+          >
+            <InputGroup
+              onChange={ changeInput }
               value={ email }
-              onChange={ changeInput }
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Enter your email address"
             />
           </FormGroup>
-          <FormGroup>
-            <Label for="password">Password</Label>
-            <Input
-              type="password"
-              name="password"
-              id="password"
-              placeholder="Enter your password"
+          <FormGroup
+            label="Password"
+            labelFor="password"
+            labelInfo="(required)"
+          >
+            <InputGroup
+              onChange={ changeInput }
               value={ password }
-              onChange={ changeInput }
-            />
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password" />
           </FormGroup>
-          <div>You don't have an account? Create one <Link to="/register">here</Link></div>
-          <Button>Login</Button>
-        </Form>
-      </Col>
-    </Row>
+          <div className={ `${ Classes.LABEL } mb-2` }>You don't have an account? Create one
+            <Link to={ REGISTER }> here</Link>
+          </div>
+          <Button onClick={ submitForm } rightIcon="arrow-right" text="Log in" />
+        </div>
+      </div>
+    </div>
   );
 };
 

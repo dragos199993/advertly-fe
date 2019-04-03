@@ -1,32 +1,31 @@
 import React, { FunctionComponent, ReactNode } from 'react';
-import { Card, CardBody, CardTitle, CardText, Container, Row, Col, Badge, Button } from 'reactstrap';
 import UsersPageContainer from '../../../core/userspage/UsersPageContainer/UsersPageContainer';
 import { IUsersPageContainerState } from '../../../core/userspage/UsersPageContainer/IUsersPageContainer';
 import { Link } from 'react-router-dom';
 import { PROFILE } from '../../../../router/routePaths';
+import { Card, H5, Tag } from '@blueprintjs/core';
 
 export const UsersPage: FunctionComponent<IUsersPageContainerState> = ({ users }) => {
   return (
-    <Container>
-      <Row>
+    <div className="container">
+      <div className="row">
         { users.map(({ username, email, role, created, _id }, index) => (
-          <Col md="6" key={ index }>
+          <div className="col-md-6" key={ index }>
             <Card>
-              <CardBody>
-                <Badge color="dark">{ created }</Badge>
-                <CardTitle className="display-inline">
-                  <Badge color="secondary">{ role }</Badge>
-                  { username }
-                </CardTitle>
-                <CardText>{ email }</CardText>
-                <Link to={ `${ PROFILE }/${ _id }` }><Button>View profile</Button></Link>
-              </CardBody>
+              <H5>
+                <Link to={ `${ PROFILE }/${ _id }` }>{ username }</Link>
+              </H5>
+              <p>
+                User interfaces that enable people to interact smoothly with data, ask better questions, and
+                make better decisions.
+              </p>
+              <Tag>{ created }</Tag>
             </Card>
-          </Col>
+          </div>
         ))
         }
-      </Row>
-    </Container>
+      </div>
+    </div>
   );
 };
 

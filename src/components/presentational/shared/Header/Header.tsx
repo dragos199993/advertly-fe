@@ -1,73 +1,48 @@
-import React, { FunctionComponent, ReactNode } from 'react';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  Nav,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem, NavItem
-} from 'reactstrap';
+import React, { FunctionComponent, ReactElement } from 'react';
 import { IHeaderProps } from '../../../core/shared/HeaderContainer/IHeaderContainerProps';
-import { Link, NavLink } from 'react-router-dom';
-import { LOGIN, PROFILE, REGISTER, USERS } from '../../../../router/routePaths';
+import { LOGIN, PROFILE, REGISTER, ROOT, USERS } from '../../../../router/routePaths';
+import {
+  Alignment,
+  Button,
+  Classes,
+  Menu, MenuDivider,
+  MenuItem, Navbar,
+  NavbarGroup,
+  NavbarHeading,
+  Popover,
+  Position
+} from '@blueprintjs/core';
 
-
-const Header: FunctionComponent<IHeaderProps> = ({ isNavbarOpen, toggleNavbarMenu, user, signOut }) => {
-
-  let currentMenu: ReactNode = (
-    <>
-      <Link to={ LOGIN }>
-        <DropdownItem>
-          Log in
-        </DropdownItem>
-      </Link>
-      <Link to={ REGISTER }>
-        <DropdownItem>
-          Register
-        </DropdownItem>
-      </Link>
-    </>
+const Header: FunctionComponent<IHeaderProps> = ({ changePage, user, signOut }) => {
+  let currentMenu: ReactElement = (
+    <Menu>
+      <MenuItem text="Register" onClick={ () => changePage(REGISTER) } />
+      <MenuItem text="Log In" onClick={ () => changePage(LOGIN) } />
+    </Menu>
   );
   if (user && user.username) {
     currentMenu = (
-      <>
-        <Link to={ PROFILE }>
-          <DropdownItem>
-            Profile
-          </DropdownItem>
-        </Link>
-        <DropdownItem divider={ true } />
-        <DropdownItem onClick={ signOut }>
-          Sign out
-        </DropdownItem>
-      </>
+      <Menu>
+        <MenuItem text="Profile" onClick={ () => changePage(PROFILE) } />
+        <MenuDivider />
+        <MenuItem text="Sign out" onClick={ signOut } />
+      </Menu>
     );
   }
 
   return (
-    <div>
-      <Navbar color="light" light={ true } expand="md">
-        <Link className="navbar-brand" to="/">Advertly</Link>
-        <NavbarToggler onClick={ toggleNavbarMenu } />
-        <Collapse isOpen={ isNavbarOpen } navbar={ true }>
-          <Nav className="ml-auto" navbar={ true }>
-            <NavItem>
-              <NavLink className="nav-link" to={ USERS }>Users</NavLink>
-            </NavItem>
-            <UncontrolledDropdown nav={ true } inNavbar={ true }>
-              <DropdownToggle nav={ true } caret={ true }>
-                { user && user.username || 'Guest' }
-              </DropdownToggle>
-              <DropdownMenu right={ true }>
-                { currentMenu }
-              </DropdownMenu>
-            </UncontrolledDropdown>
-          </Nav>
-        </Collapse>
-      </Navbar>
-    </div>
+    <Navbar>
+      <NavbarGroup align={ Alignment.LEFT }>
+        <NavbarHeading onClick={ () => changePage(ROOT) }>Advertly</NavbarHeading>
+      </NavbarGroup>
+      <NavbarGroup align={ Alignment.RIGHT }>
+        <Button className={ Classes.MINIMAL } onClick={ () => changePage(ROOT) } icon="home" text="Home" />
+        <Button className={ Classes.MINIMAL } onClick={ () => changePage(USERS) } icon="people" text="Users" />
+        <Popover content={ currentMenu } position={ Position.BOTTOM }>
+          <Button className={ Classes.MINIMAL } icon="user" text={ (user && user.username) || 'Guest' } />
+        </Popover>
+      </NavbarGroup>
+    </Navbar>
   );
 };
 

@@ -16,12 +16,11 @@ export interface IHeaderContainerProps extends
 }
 
 export interface IHeaderContainerState {
-  isNavbarOpen: boolean;
   user: null | IUser;
 }
 
 export interface IHeaderProps extends IHeaderContainerState {
-  toggleNavbarMenu: () => void;
   signOut: () => void;
   user: null | IUser;
+  changePage: (path: string) => void;
 }

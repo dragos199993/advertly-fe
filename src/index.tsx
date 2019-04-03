@@ -12,6 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { DEFAULT_LANGUAGE } from './constants/i18nConfig';
 import en from './i18n/en.json';
 import App from './components/presentational/App';
+import './assets/index.scss';
 
 ReactDOM.render(
   (
